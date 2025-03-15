@@ -77,3 +77,10 @@ body {
   cursor: pointer;
   background-color: rgb(159, 189, 255);
 }
+
+@media (max-width:768px) {
+  #panel {
+    overflow: hidden;
+    width: 90%;
+  }
+}
